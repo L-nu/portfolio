@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Urbanist:wght@100&display=swap');
+
+body {
+    background-color: white;
+    color: rgb(99, 194, 238);
+    
+}
+
+img {
+    width: 350px;
+    height: 250px;
+    border-radius: 50%;
+}
+h1 {
+    color: rgb(101, 241, 101);
+    font-size: 45px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+@media all and (max-midth: 480px) {
+    h1 {
+        color: rgb(99, 194, 238);
+    
+    }
+    
+    
+}
+
+
+@media all and (max-midth: 600px) {
+
+    
+}
